@@ -240,8 +240,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   horizontalInput: 1
-  speed: 10
+  verticalInput: 0
+  speed: 20
   xRange: 25
+  zRange: 2
   projectilePrefab: {fileID: 6241062415136484666, guid: ab6a830157bff9e4b9446ffeec813263, type: 3}
 --- !u!1 &425805626
 GameObject:
@@ -922,7 +924,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6241062415136942326, guid: ab6a830157bff9e4b9446ffeec813263, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 1.2
       objectReference: {fileID: 0}
     - target: {fileID: 6241062415136942326, guid: ab6a830157bff9e4b9446ffeec813263, type: 3}
       propertyPath: m_LocalPosition.z

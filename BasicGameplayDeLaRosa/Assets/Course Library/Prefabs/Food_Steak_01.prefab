@@ -13,6 +13,8 @@ GameObject:
   - component: {fileID: 6241062415138703222}
   - component: {fileID: 6241062415691535124}
   - component: {fileID: 6165116002975683970}
+  - component: {fileID: 4432316823566575850}
+  - component: {fileID: 8046430238825516465}
   m_Layer: 0
   m_Name: Food_Steak_01
   m_TagString: Untagged
@@ -110,3 +112,32 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dd0ef7d0a59971848be3119f8534b461, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!65 &4432316823566575850
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6241062415136484666}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.46739918, y: 0.08559368, z: 0.6615112}
+  m_Center: {x: 0, y: 0.04279684, z: 0}
+--- !u!54 &8046430238825516465
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6241062415136484666}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
